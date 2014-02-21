@@ -1,2 +1,5 @@
 test/
 .gitignore
+.min-wd
+Makefile
+browser-test.js
