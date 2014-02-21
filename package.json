@@ -23,6 +23,7 @@
     "aes",
     "encryption",
     "bitcoin",
-    "bip38"
+    "bip38",
+    "cipher"
   ]
 }
