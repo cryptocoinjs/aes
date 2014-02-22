@@ -1,6 +1,6 @@
 {
   "name": "aes",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A JavaScript component for the Advanced Encryption Standard (AES).",
   "main": "lib/aes.js",
   "scripts": {
