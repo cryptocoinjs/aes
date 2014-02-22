@@ -30,6 +30,7 @@ References
 - http://en.wikipedia.org/wiki/Advanced_Encryption_Standard
 - http://www.differencebetween.com/difference-between-stream-cipher-and-vs-block-cipher/
 - http://en.wikipedia.org/wiki/Cipher_block_chaining
+- http://opensource.apple.com/source/OpenSSL/OpenSSL-46/openssl/crypto/aes/aes_core.c
 
 
 Todo
