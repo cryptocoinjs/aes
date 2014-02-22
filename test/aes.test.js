@@ -1,4 +1,4 @@
-var testVectors = require('./aes_vectors').test_vectors;
+var testVectors = require('./aes-vectors').test_vectors;
 var AES = require('../lib/aes');
 var util = require('util')
 
