@@ -1,3 +1,5 @@
+test: node-test browser-test
+
 node-test:
 	@./node_modules/.bin/mocha 
 
