@@ -34,6 +34,20 @@ var ct = [0xd241aab0,0x5a42d319,0xde81d874,0xf5c7b90d];
 var aes = new AES(key);
 console.dir(aes.encrypt(pt)); // => [0xd241aab0,0x5a42d319,0xde81d874,0xf5c7b90d]
 console.dir(aes.decrypt(ct)); // => [0x00000000,0x00000000,0x00000000,0x00000000]
+```
+
+Buffer is supported as well
+
+```js
+var AES = require('aes')
+
+var key = new Buffer('fffffffffffffffffffffffffffffffffffffffffffffff8', 'hex');
+var pt = new Buffer('00000000000000000000000000000000', 'hex');
+var ct = new Buffer('d241aab05a42d319de81d874f5c7b90d','hex');
+
+var aes = new AES(key);
+console.dir(aes.encrypt(pt)); // => Buffer [ 210, 65, 170, 176, 90, 66, 211, 25, 222, 129, 216, 116, 245, 199, 185, 13 ]
+console.dir(aes.decrypt(ct)); // => Buffer [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
 ``` 
 
 ### Testing
