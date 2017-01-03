@@ -54,6 +54,7 @@ console.dir(aes.decrypt(ct)); // => Buffer [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 
 1. Clone the git repo.
 2. `npm install --development`
+3. `npm test`
 
 #### Node.js
 
