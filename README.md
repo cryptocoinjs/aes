@@ -73,7 +73,7 @@ console.dir(aes.decrypt(ct)); // => Buffer [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 ### Bundle for Browser
 
     npm install -g browserify
-    browserify < lib/aes.js > lib/aes.bundle.js
+    browserify < lib/aes.js > -o lib/aes.bundle.js
 
 
 References
