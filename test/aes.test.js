@@ -8,7 +8,7 @@ require('terst');
 function _toArray(buffer) {
   var data = [];
   var len = (buffer.length / 4) | 0;
-  for (let count = 0; count < len; count++) {
+  for (var count = 0; count < len; count++) {
     data[count] = buffer.readUInt32BE(count * 4);
   }
   return data;
@@ -18,7 +18,7 @@ function _toArray(buffer) {
 function _toBuffer(array) {
   var len = array.length;
   var data = Buffer.alloc(len * 4);
-  for (let count = 0; count < len; count++) {
+  for (var count = 0; count < len; count++) {
     data.writeUInt32BE(array[count], count * 4, 4);
   }
   return data;
